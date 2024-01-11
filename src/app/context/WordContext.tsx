@@ -14,6 +14,7 @@ export const WordContext = createContext<WordContextType | null>(null);
 
 const WordContextProvider: FC<Params> = ({ children, init }) => {
   const [word, setWord] = useState(init);
+  document.title = word;
   return (
     <WordContext.Provider value={{ word, setWord }}>
       {children}
