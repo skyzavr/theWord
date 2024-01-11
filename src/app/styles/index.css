@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Noto+Serif:wght@400;600&family=Roboto:wght@400;500&family=Ubuntu&display=swap');
+@import './normalize.css';
+@import './colours.css';
+body {
+  background-color: var(--main-colour);
+}

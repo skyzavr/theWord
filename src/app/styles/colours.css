@@ -1,0 +1,16 @@
+:root[color-scheme='dark'] {
+  --main-colour: #050505;
+  --accent: #3f6ee6;
+  --main: #ffffff;
+  --gray-one: #c6c6c6;
+  --gray-two: #b8b8b8;
+  --gray-three: #1f1f1f;
+}
+:root[color-scheme='light'] {
+  --main-colour: #ffffff;
+  --accent: #3f6ee6;
+  --main: #050505;
+  --gray-one: #262626;
+  --gray-two: #444444;
+  --gray-three: #f4f4f4;
+}
