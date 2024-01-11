@@ -33,10 +33,10 @@ export const Boundries = ({ isError, isLoading, word, data }: Props) => {
     return (
       <div className={classes.msg}>
         <SadFace />
-        <pre>
-          Sorry mate, we couldn't find definitions for the word
+        <span>
+          Sorry mate, we couldn't find definitions for the word{' '}
           <span className={classes.word}> {word}</span> you were looking for :(
-        </pre>
+        </span>
       </div>
     );
 
