@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: transparent;
+  filter: brightness(0.7);
+  transition: filter ease-in-out 0.3s;
+}
+.wrapper:hover {
+  filter: brightness(1);
+}
+.wrapper svg {
+  margin: 0;
+}
