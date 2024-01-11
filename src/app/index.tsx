@@ -4,8 +4,10 @@ import WordContextProvider from './context/WordContext';
 import { Layout } from '@widgets/layout';
 
 const App = () => {
+  const themeLS = localStorage.getItem('theme') || 'dark';
+
   return (
-    <ThemeContextProvider init="dark">
+    <ThemeContextProvider init={themeLS}>
       <WordContextProvider init="">
         <Layout />
       </WordContextProvider>
