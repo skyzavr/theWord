@@ -1,0 +1,10 @@
+.main {
+  fill: var(--main);
+}
+.add {
+  fill: var(--main-colour);
+}
+svg {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
