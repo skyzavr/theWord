@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.title {
+  color: var(--main);
+  font-size: 30px;
+  font-family: 'Antonio';
+}
